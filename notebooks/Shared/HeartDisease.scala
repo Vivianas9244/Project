@@ -11,7 +11,7 @@
 // MAGIC val hd = spark.read.format("csv")
 // MAGIC .option("header", "true")
 // MAGIC .option("inferSchema", "true")
-// MAGIC .load("/FileStore/tables/heartdisease_csv.csv")
+// MAGIC .load("/FileStore/tables/HeartDisease.csv")
 // MAGIC 
 // MAGIC display(hd)
 
