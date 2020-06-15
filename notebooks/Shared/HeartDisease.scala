@@ -17,3 +17,12 @@
 
 // COMMAND ----------
 
+hd.describe().show()
+
+// COMMAND ----------
+
+hd.filter($"sex" === "0") = "female"
+hd.filter($"sex" === "1") = "male"
+
+// COMMAND ----------
+
